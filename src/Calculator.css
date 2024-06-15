@@ -1,0 +1,46 @@
+.container{
+    width: 400px;
+}
+
+.screen{
+    height: 100px;
+    line-height: 100px;
+    padding: 0 , 20px;
+    font-size: 30px;
+    text-align: right;
+    background-color: #02040c;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 100px;
+    height: 80px;
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: #131413;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid #373a37;
+}
+button:hover{
+    background-color: #070707;
+}
+
+.color{
+    background-color: #00e1ff;
+    color: black;
+    font-weight: bold;
+}
+.color:hover{
+    background-color: #01c6e0;
+}
+
+.two{
+    width: 200px;
+}
