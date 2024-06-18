@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import './Calculator.css'
+import {evaluate} from 'mathjs'
 
 function Calculator(){
 
@@ -41,7 +42,7 @@ function Calculator(){
     }
 
     const equalBtn = () => {
-        setResult(String(eval(result)))
+        setResult(String(evaluate(result)))
     }
 
 
